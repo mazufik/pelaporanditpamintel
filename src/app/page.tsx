@@ -1,6 +1,11 @@
 import Image from "next/image";
 import LinkCard from "@/components/LinkCard";
 import { links } from "@/data/links";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Pelaporan Direktorat Pengamanan dan Intelijen",
+};
 
 export default function Home() {
     return (

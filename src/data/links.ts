@@ -6,7 +6,7 @@ export const links = [
     },
     {
         title: "Penindakan Tanggap darurat dan Pemulihan Pengelolaan Crisis Center",
-        url: "https://linktr.ee/penindakanpemulihan",
+        url: "/penindakan",
         icon: "/penindakan.png",
     },
     {

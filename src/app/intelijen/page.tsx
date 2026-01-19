@@ -50,8 +50,10 @@ export default function IntelijenPage() {
                                 <DropdownCard
                                     key={idx}
                                     title={menu.title}
-                                    items={menu.items}
-                                    href={menu.href}
+                                    {...(menu.items
+                                        ? { items: menu.items }
+                                        : {})}
+                                    {...(menu.href ? { href: menu.href } : {})}
                                 />
                             ))}
                         </div>

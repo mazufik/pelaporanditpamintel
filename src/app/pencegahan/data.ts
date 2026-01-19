@@ -1,70 +1,80 @@
 export const pencegahanMenus = [
     {
-        title: "Laporan Pelaksanaan Pembinaan Prosedur",
-        items: [
+        category: "Laporan Bulanan",
+        menus: [
             {
-                label: "Format Laporan",
+                title: "Laporan Pelaksanaan Pembinaan Prosedur",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
+            },
+            {
+                title: "Rekapitulasi Laporan Pembinaan Prosedur (Simulasi, Habituasi, Penyiapan Peralatan",
                 href: "#",
             },
             {
-                label: "Upload Laporan",
-                href: "#",
-            },
-        ],
-    },
-    {
-        title: "Laporan penilaian kerawanan bencana dan non alam",
-        items: [
-            {
-                label: "Format Laporan",
+                title: "Pelaksanaan Tes Urine",
                 href: "#",
             },
             {
-                label: "Upload Laporan",
-                href: "#",
-            },
-        ],
-    },
-    {
-        title: "Data pengendalian peralatan pengamanan dan penyiapan peralatan kondisi darurat ",
-        items: [
-            {
-                label: "Format Laporan",
+                title: "Data Penggagalan penyelundupan Narkotika",
                 href: "#",
             },
             {
-                label: "Upload Laporan",
+                title: "Data Penggeledahan Blok Hunian",
                 href: "#",
             },
         ],
     },
     {
-        title: "Laporan Rencana Kontijensi Penanggulangan dan Operasi Tanggap Darurat Bencana Non Alam",
-        items: [
+        category: "Laporan Semester",
+        menus: [
             {
-                label: "Format Laporan",
-                href: "#",
+                title: "Laporan penilaian kerawanan bencana dan non alam",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
             },
             {
-                label: "Upload Laporan",
-                href: "#",
+                title: "Data pengendalian peralatan pengamanan dan penyiapan peralatan kondisi darurat ",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Rencana Kontijensi Penanggulangan dan Operasi Tanggap Darurat Bencana Non Alam",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
             },
         ],
-    },
-    {
-        title: "Rekapitulasi Laporan Pembinaan Prosedur (Simulasi, Habituasi, Penyiapan Peralatan",
-        href: "#",
-    },
-    {
-        title: "Pelaksanaan Tes Urine",
-        href: "#",
-    },
-    {
-        title: "Data Penggagalan penyelundupan Narkotika",
-        href: "#",
-    },
-    {
-        title: "Data Penggeledahan Blok Hunian",
-        href: "#",
     },
 ];

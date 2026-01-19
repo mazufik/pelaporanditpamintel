@@ -1,32 +1,42 @@
 export const kontigensiMenus = [
     {
-        title: "Laporan Penilaian Kerawanan Bencana Alam",
-        items: [
+        category: "Laporan Semester",
+        menus: [
             {
-                label: "Format Laporan",
-                href: "#",
+                title: "Laporan Penilaian Kerawanan Bencana Alam",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
             },
             {
-                label: "Upload Laporan",
-                href: "#",
+                title: "Laporan Rencana Kontijensi Penanggulangan dan Operasi Tanggap Darurat Bencana Alam",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "#",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "#",
+                    },
+                ],
             },
         ],
     },
     {
-        title: "Laporan Rencana Kontijensi Penanggulangan dan Operasi Tanggap Darurat Bencana Alam",
-        items: [
+        category: "Laporan Lainnya",
+        menus: [
             {
-                label: "Format Laporan",
-                href: "#",
-            },
-            {
-                label: "Upload Laporan",
+                title: "Rekapitulasi Pengembangan ",
                 href: "#",
             },
         ],
-    },
-    {
-        title: "Rekapitulasi Pengembangan ",
-        href: "#",
     },
 ];

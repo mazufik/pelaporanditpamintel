@@ -1,7 +1,7 @@
 export const links = [
     {
         title: "Pencegahan Gangguan Keamanan dan Pemeliharaan keamanan",
-        url: "#",
+        url: "/pencegahan",
         icon: "/icons.png",
     },
     {
@@ -11,12 +11,12 @@ export const links = [
     },
     {
         title: "Intelijen Pemasyarakatan",
-        url: "https://link-intelijen.vercel.app/",
+        url: "/intelijen",
         icon: "/intelijen.png",
     },
     {
         title: "Rencana Kontingensi dan Penanggulangan Bencana Alam",
-        url: "#",
+        url: "/kontigensi",
         icon: "/icons.png",
     },
 ];

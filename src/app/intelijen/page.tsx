@@ -36,14 +36,26 @@ export default function IntelijenPage() {
             </header>
 
             {/* MENU */}
-            <section className="space-y-4">
-                {intelijenMenus.map((menu, i) => (
-                    <DropdownCard
-                        key={i}
-                        title={menu.title}
-                        items={menu.items}
-                        href={menu.href}
-                    />
+            <section className="space-y-8">
+                {intelijenMenus.map((group, i) => (
+                    <div key={i}>
+                        {/* Judul Kategori */}
+                        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/60">
+                            {group.category}
+                        </h2>
+
+                        {/* List Menu */}
+                        <div className="space-y-4">
+                            {group.menus.map((menu, idx) => (
+                                <DropdownCard
+                                    key={idx}
+                                    title={menu.title}
+                                    items={menu.items}
+                                    href={menu.href}
+                                />
+                            ))}
+                        </div>
+                    </div>
                 ))}
             </section>
 

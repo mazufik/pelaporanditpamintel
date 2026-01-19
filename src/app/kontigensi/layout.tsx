@@ -1,4 +1,4 @@
-export default function PencegahanLayout({
+export default function KontigensiLayout({
     children,
 }: {
     children: React.ReactNode;

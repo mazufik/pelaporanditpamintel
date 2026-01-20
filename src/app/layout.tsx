@@ -1,10 +1,5 @@
 import "./globals.css";
 
-export const metadata = {
-    title: "Linktree Pemerintah",
-    description: "Portal resmi layanan & media pemerintahan",
-};
-
 export default function RootLayout({
     children,
 }: {

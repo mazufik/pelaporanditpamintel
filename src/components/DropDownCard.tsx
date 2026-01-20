@@ -1,31 +1,33 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, memo } from "react";
 import Link from "next/link";
 
+// Tipe Item untuk Dropdown
 type Item = {
     label: string;
     href: string;
 };
 
+// Tipe Props untuk DropdownCard
 type DropdownCardProps =
     | {
           title: string;
-          items: Item[];
-          href?: never;
+          items: Item[]; // Dropdown menu memiliki item
+          href?: never; // Tidak ada href
       }
     | {
           title: string;
-          href: string;
-          items?: never;
+          href: string; // Link menu memiliki href
+          items?: never; // Tidak ada items
       };
 
-export default function DropdownCard(props: DropdownCardProps) {
+const DropdownCard = memo((props: DropdownCardProps) => {
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLDivElement>(null);
 
-    // 🔹 Auto close ketika klik di luar
+    // Auto-close dropdown ketika klik di luar
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (ref.current && !ref.current.contains(event.target as Node)) {
@@ -42,18 +44,22 @@ export default function DropdownCard(props: DropdownCardProps) {
     /* =======================
        MODE: LINK LANGSUNG
     ======================= */
-    if ("href" in props) {
+    if (props.href) {
         return (
             <Link
                 href={props.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center text-center
-                p-5 rounded-xl
-                bg-white/10 backdrop-blur-md
-                border border-white/20
-                hover:bg-white/20 hover:-translate-y-1
-                transition-all"
+                           p-5 rounded-xl
+                           bg-white/10 backdrop-blur-md
+                           border border-white/20
+                           hover:bg-white/20 hover:-translate-y-1
+                           transition-all"
             >
-                <span className="font-semibold text-base">{props.title}</span>
+                <span className="font-semibold text-base leading-relaxed">
+                    {props.title}
+                </span>
             </Link>
         );
     }
@@ -64,28 +70,39 @@ export default function DropdownCard(props: DropdownCardProps) {
     return (
         <div
             ref={ref}
-            className="rounded-xl
-            bg-white/10 backdrop-blur-md
-            border border-white/20
-            overflow-hidden"
+            className="rounded-xl bg-white/10 backdrop-blur-md
+                       border border-white/20 overflow-hidden"
         >
             {/* BUTTON */}
             <button
                 onClick={() => setOpen((v) => !v)}
-                className="relative w-full p-5
-                hover:bg-white/20 transition"
+                className="group flex items-center w-full p-5
+                           hover:bg-white/20 transition"
             >
                 {/* TITLE */}
-                <span className="block text-center font-semibold text-base">
+                <span className="flex-1 text-center font-semibold text-base leading-relaxed">
                     {props.title}
                 </span>
 
                 {/* ICON */}
                 <span
-                    className={`absolute right-5 top-1/2 -translate-y-1/2
-                    text-xs transition-transform ${open ? "rotate-180" : ""}`}
+                    className={`shrink-0 transition-transform duration-300
+                                ${open ? "rotate-180" : ""}`}
                 >
-                    ▼
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-4 h-4 text-white/70 group-hover:text-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19 9l-7 7-7-7"
+                        />
+                    </svg>
                 </span>
             </button>
 
@@ -99,13 +116,15 @@ export default function DropdownCard(props: DropdownCardProps) {
                         transition={{ duration: 0.25, ease: "easeInOut" }}
                         className="px-6 pb-4 space-y-3 text-center"
                     >
-                        {props.items.map((item, i) => (
+                        {props.items?.map((item, i) => (
                             <Link
                                 key={i}
                                 href={item.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 onClick={() => setOpen(false)}
                                 className="block text-sm text-white/70
-                                hover:text-white hover:underline"
+                                           hover:text-white hover:underline"
                             >
                                 {item.label}
                             </Link>
@@ -115,4 +134,6 @@ export default function DropdownCard(props: DropdownCardProps) {
             </AnimatePresence>
         </div>
     );
-}
+});
+
+export default DropdownCard;

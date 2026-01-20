@@ -1,28 +1,28 @@
 import Image from "next/image";
-import DropdownCard from "@/components/DropDownCard";
 import { kontigensiMenus } from "./data";
+import DropdownCard from "@/components/DropDownCard";
+import { isDropdownMenu } from "@/helper/utils";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Pokja Rencana Kontingensi dan Penanggulangan Bencana Alam",
+export const metadata: Metadata = {
+    title: "Pokja Rencana Kontigensi dan Penanggulangan Bencana Alam",
 };
 
 export default function KontigensiPage() {
     return (
-        <main className="w-full max-w-md px-6 py-10">
-            {/* HEADER */}
+        <main className="w-full max-w-md px-6 py-10 mx-auto">
+            {/* ================= HEADER ================= */}
             <header className="text-center mb-10">
-                <div className="flex justify-center mb-5">
-                    <div
-                        className="w-[110px] h-[110px] rounded-full overflow-hidden
-                        border border-white/20 bg-white/10"
-                    >
+                {/* LOGO */}
+                <div className="flex justify-center mb-4">
+                    <div className="w-24 h-24 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
                         <Image
                             src="/icons.png"
-                            alt="Pokja Rencana Kontingensi dan Penanggulangan Bencana Alam"
+                            alt="Pokja Kontigensi"
                             width={115}
                             height={115}
                             priority
-                            className="object-cover"
+                            className="object-contain"
                         />
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function KontigensiPage() {
                 </p>
             </header>
 
-            {/* MENU */}
+            {/* ================= MENU ================= */}
             <section className="space-y-8">
                 {kontigensiMenus.map((group, i) => (
                     <div key={i}>
@@ -46,22 +46,31 @@ export default function KontigensiPage() {
 
                         {/* List Menu */}
                         <div className="space-y-4">
-                            {group.menus.map((menu, idx) => (
-                                <DropdownCard
-                                    key={idx}
-                                    title={menu.title}
-                                    {...(menu.items
-                                        ? { items: menu.items }
-                                        : {})}
-                                    {...(menu.href ? { href: menu.href } : {})}
-                                />
-                            ))}
+                            {group.menus.map((menu, idx) => {
+                                if (isDropdownMenu(menu)) {
+                                    return (
+                                        <DropdownCard
+                                            key={idx}
+                                            title={menu.title}
+                                            items={menu.items}
+                                        />
+                                    );
+                                }
+
+                                return (
+                                    <DropdownCard
+                                        key={idx}
+                                        title={menu.title}
+                                        href={menu.href}
+                                    />
+                                );
+                            })}
                         </div>
                     </div>
                 ))}
             </section>
 
-            {/* FOOTER */}
+            {/* ================= FOOTER ================= */}
             <footer className="mt-12 text-center text-xs text-white/60">
                 <div className="border-t border-white/20 pt-4">
                     <p>© {new Date().getFullYear()} DITPAMINTEL</p>

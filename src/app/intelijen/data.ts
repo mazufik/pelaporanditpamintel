@@ -1,4 +1,18 @@
-export const intelijenMenus = [
+// data.ts
+
+import { Menu } from "@/helper/utils"; // Mengimpor tipe Menu dari helper/utils.ts
+
+export type MenuItem = {
+    label: string;
+    href: string;
+};
+
+export type Category = {
+    category: string;
+    menus: Menu[]; // Menggunakan tipe Menu yang telah diekspor dari helper/utils.ts
+};
+
+export const intelijenMenus: Category[] = [
     {
         category: "Laporan Bulanan",
         menus: [
@@ -7,32 +21,50 @@ export const intelijenMenus = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/17zIZZ9ODYal67Pb_wr1xzMCJdssPIMur",
+                        href: "https://docs.google.com/spreadsheets/d/1sIqGkR4zb33y3jJsEvZfxbj3yGn2TEii/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://forms.gle/adtDuMErf5HC5tZF7",
+                        href: "https://forms.gle/jeUQesJCtccGLJcN8",
                     },
                 ],
             },
             {
-                title: "Laporan Konsolidasi Intelijen",
-                href: "https://forms.gle/xauz6Wnpegn3rSFcA",
-            },
-            {
-                title: "Laporan Analisa Pengawasan Komunikasi / WARTELSUSPAS",
-                href: "https://forms.gle/xauz6Wnpegn3rSFcA",
+                title: "Laporan Konsolidasi Intelijen Pemasyarakatan tingkat wilayah",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/document/d/1qw_oVXt_qPsOOHX2KBlSnAlwjzdOpoED/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSf8GBqhP9LNlwIeWPg1n3p9FcXwnRBUkSNKBkjK7uySzhvB6w/viewform?usp=dialog",
+                    },
+                ],
             },
             {
                 title: "Laporan Intelijen",
                 items: [
                     {
-                        label: "Format Laporan Intelijen",
-                        href: "https://docs.google.com/document/d/1c0zPYfmemdv3ft4BG43qU5z1UK9BzaVz",
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/document/d/1Sg5FNZeN7ZOMegHzHnnWqOu2jKn55NTe/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Upload Laporan Intelijen",
-                        href: "https://forms.gle/VX5xLAWMvMpSL5qA6",
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLScTuRiXbgeJCcvZd_mc_57nsYWSx3NOcS15ETiJ6idWj216zQ/viewform?usp=dialog",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Analisa Pengawasan Komunikasi/WARTELSUSPAS",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/10RA2AF87dk6n9HklpQf7Bo0JS8T1Czbv/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdGZ8tR-jL2cbdDSaNHoGN5g5MBZHhwbNgUlPcvsBskmfx3sA/viewform?usp=dialog",
                     },
                 ],
             },
@@ -46,15 +78,15 @@ export const intelijenMenus = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/17zIZZ9ODYal67Pb_wr1xzMCJdssPIMur",
+                        href: "https://docs.google.com/document/d/1Y5ni60kRinZs8BgShBMUwt2LGGaLEbiD/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Matriks",
-                        href: "https://docs.google.com/spreadsheets/d/17zIZZ9ODYal67Pb_wr1xzMCJdssPIMur",
+                        label: "Format Instrument",
+                        href: "https://docs.google.com/spreadsheets/d/1ojcF9A02tyK_J7eNCAEsFgQ-UkfUm2WJ/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://forms.gle/bFWjBCjqcMTrkbv88",
+                        href: "https://forms.gle/u3g97rhTGK94ccuHA",
                     },
                 ],
             },
@@ -64,15 +96,15 @@ export const intelijenMenus = [
         category: "Laporan Tahunan",
         menus: [
             {
-                title: "SK Tim Unit Pemasyarakatan (UIP)",
+                title: "Laporan Penetapan Tim Unit Intelijen Pemasyarakatan, Unit Intelijen Pemasyarakatan (SK Tim UIP)",
                 items: [
                     {
-                        label: "Contoh SK Tim UIP",
-                        href: "https://docs.google.com/document/d/17VFpvF3SWaJ3vM14yiaEzm03VYPGYvpt",
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/document/d/1CldavX_wi6HaOGqxuVcU9AAtxD-M7xiV/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Upload SK Tim UIP",
-                        href: "https://forms.gle/xauz6Wnpegn3rSFcA",
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/sBcXR1qyUrPnz5kK7",
                     },
                 ],
             },

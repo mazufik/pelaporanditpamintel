@@ -1,3 +1,5 @@
+// LinkCard.tsx
+
 import Image from "next/image";
 
 interface LinkCardProps {

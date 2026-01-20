@@ -1,4 +1,18 @@
-export const pencegahanMenus = [
+// data.ts
+
+import { Menu } from "@/helper/utils"; // Mengimpor tipe Menu dari helper/utils.ts
+
+export type MenuItem = {
+    label: string;
+    href: string;
+};
+
+export type Category = {
+    category: string;
+    menus: Menu[]; // Menggunakan tipe Menu yang telah diekspor dari helper/utils.ts
+};
+
+export const pencegahanMenus: Category[] = [
     {
         category: "Laporan Bulanan",
         menus: [
@@ -7,29 +21,52 @@ export const pencegahanMenus = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "#",
+                        href: "https://docs.google.com/spreadsheets/d/1meVyUJIL1uCKJwr8YzrKLdC1rSAlZ6MDf6CU-Cv7HzI/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "#",
+                        href: "https://forms.gle/27KSvzBVXnRu5hix8",
                     },
                 ],
             },
             {
-                title: "Rekapitulasi Laporan Pembinaan Prosedur (Simulasi, Habituasi, Penyiapan Peralatan",
-                href: "#",
-            },
-            {
                 title: "Pelaksanaan Tes Urine",
-                href: "#",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1eFtuD8rj2TD-Ojp_ZlDtUdEGXupBQDc3oi0mC82T-4I/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/hkfRzQgUrr96Z9Rv8",
+                    },
+                ],
             },
             {
                 title: "Data Penggagalan penyelundupan Narkotika",
-                href: "#",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1xTTzmwY_-P3gAID_sphtRVeWOC__ALlw-AE0ZT5wYmo/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/T9n97E7f3bXhLW1h7",
+                    },
+                ],
             },
             {
                 title: "Data Penggeledahan Blok Hunian",
-                href: "#",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1BSdSXiRvTiw0zoWqUvcsWmK29elR34A53g326q5745g/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/2nUmsXrXrjGHie829",
+                    },
+                ],
             },
         ],
     },
@@ -41,24 +78,24 @@ export const pencegahanMenus = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "#",
+                        href: "https://docs.google.com/document/d/12Ie7HshQf1HpPtqoyYGT2jHDScpJ6WQ2XILSGX3Yylw/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "#",
+                        href: "https://forms.gle/nGYsujEUhwm3BaMd8",
                     },
                 ],
             },
             {
-                title: "Data pengendalian peralatan pengamanan dan penyiapan peralatan kondisi darurat ",
+                title: "Data pengendalian peralatan pengamanan dan penyiapan peralatan kondisi darurat",
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "#",
+                        href: "https://docs.google.com/spreadsheets/d/1Qnc23UIMqEjk65kKF0W2d4RCv7S8x75jmx9bUt1-uQw/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "#",
+                        href: "https://forms.gle/vRo4JWQRkJvQDWcF6",
                     },
                 ],
             },
@@ -67,11 +104,11 @@ export const pencegahanMenus = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "#",
+                        href: "https://docs.google.com/document/d/1StgsEB1FxIUZaaBEoRYHLwZGOjyo0X1V5Df_wOX3GfA/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "#",
+                        href: "https://forms.gle/addDd8nrsHapyBU17",
                     },
                 ],
             },

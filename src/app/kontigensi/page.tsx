@@ -19,8 +19,7 @@ export default function KontigensiPage() {
                         <Image
                             src="/icons.png"
                             alt="Pokja Kontigensi"
-                            width={100}
-                            height={100}
+                            fill
                             priority
                             className="object-contain"
                         />

@@ -18,9 +18,8 @@ export default function PenindakanPage() {
                     <div className="w-32 h-32 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
                         <Image
                             src="/penindakan.png"
-                            alt="Subdit Pencegahan"
-                            width={100}
-                            height={100}
+                            alt="Subdit Penindakan"
+                            fill
                             priority
                             className="object-contain"
                         />

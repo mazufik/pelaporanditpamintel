@@ -19,8 +19,7 @@ export default function IntelijenPage() {
                         <Image
                             src="/intelijen.png"
                             alt="Subdit Intelijen"
-                            width={100}
-                            height={100}
+                            fill
                             priority
                             className="object-contain"
                         />

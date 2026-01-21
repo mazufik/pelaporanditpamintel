@@ -19,8 +19,7 @@ export default function PencegahanPage() {
                         <Image
                             src="/icons.png"
                             alt="Subdit Pencegahan"
-                            width={100}
-                            height={100}
+                            fill
                             priority
                             className="object-contain"
                         />

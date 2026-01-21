@@ -76,7 +76,10 @@ export default function PencegahanPage() {
             <footer className="mt-12 text-center text-xs text-white/60">
                 <div className="border-t border-white/20 pt-4">
                     <p>© {new Date().getFullYear()} DITPAMINTEL</p>
-                    <p className="mt-1">Official Digital DITPAMINTEL</p>
+                    <p className="mt-1">Melayani • Profesional • Transparan</p>
+                    <p className="mt-2 text-white/40">
+                        Dikembangkan oleh Tim TIK DITPAMINTEL
+                    </p>
                 </div>
             </footer>
         </main>

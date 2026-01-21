@@ -97,7 +97,7 @@ export const penindakanMenus: Category[] = [
         category: "Laporan Menyesuaikan/Laporan per Kasus",
         menus: [
             {
-                title: "Tim CoData Pelarian, Tertangkap kembali dan Analisa pelarian narapidana",
+                title: "Data Pelarian, Tertangkap kembali dan Analisa pelarian narapidana",
                 items: [
                     {
                         label: "Format Laporan",

@@ -73,45 +73,6 @@ export const penindakanMenus: Category[] = [
                     },
                 ],
             },
-            {
-                title: "Data Penjatuhan sanksi",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1baSp1AhFWxH3C4hDMUh-SeK-qHX-NTgXijCCi9hGDAE/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCixN0lwGy53v1V_7lsAOvKbqYpEsngM_jOM5GxX5Gfo1Dbg/viewform?usp=dialog",
-                    },
-                ],
-            },
-            {
-                title: "Data Penegakan Disiplin Bagi Anak/Anak Binaan",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1baSp1AhFWxH3C4hDMUh-SeK-qHX-NTgXijCCi9hGDAE/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCixN0lwGy53v1V_7lsAOvKbqYpEsngM_jOM5GxX5Gfo1Dbg/viewform?usp=dialog",
-                    },
-                ],
-            },
-            {
-                title: "Data Tahanan/Narapidana Terlibat Perkara Baru Di Dalam Lapas/Rutan",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1xkqWBVwrJ-qMQ_R60pOtu9kCI8zTMUd1JLUkjO_uyLQ/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://forms.gle/4dNpQ61641FpZPVS9",
-                    },
-                ],
-            },
         ],
     },
     {

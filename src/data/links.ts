@@ -2,7 +2,7 @@ export const links = [
     {
         title: "Pencegahan Gangguan Keamanan dan Pemeliharaan keamanan",
         url: "/pencegahan",
-        icon: "/icons.png",
+        icon: "/logo.png",
     },
     {
         title: "Penindakan Tanggap darurat dan Pemulihan Pengelolaan Crisis Center",
@@ -17,6 +17,6 @@ export const links = [
     {
         title: "Rencana Kontingensi dan Penanggulangan Bencana Alam",
         url: "/kontigensi",
-        icon: "/icons.png",
+        icon: "/logo.png",
     },
 ];

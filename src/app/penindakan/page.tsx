@@ -28,8 +28,8 @@ export default function PenindakanPage() {
                 </div>
 
                 <h1 className="text-2xl font-bold leading-tight">
-                    SUBDIT SUBDIT PENINDAKAN TANGGAP DARURAT DAN PEMULIHAN
-                    PENGELOLAAN CRISIS CENTER
+                    SUBDIT PENINDAKAN TANGGAP DARURAT DAN PEMULIHAN PENGELOLAAN
+                    CRISIS CENTER
                 </h1>
                 <p className="text-white/70 text-sm mt-2">
                     Pelaporan Subdit Penindakan Tanggap darurat dan Pemulihan

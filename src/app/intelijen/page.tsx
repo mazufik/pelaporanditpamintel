@@ -15,12 +15,12 @@ export default function IntelijenPage() {
             <header className="text-center mb-10">
                 {/* LOGO */}
                 <div className="flex justify-center mb-4">
-                    <div className="w-24 h-24 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
+                    <div className="w-32 h-32 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
                         <Image
                             src="/intelijen.png"
                             alt="Subdit Intelijen"
-                            width={115}
-                            height={115}
+                            width={100}
+                            height={100}
                             priority
                             className="object-contain"
                         />

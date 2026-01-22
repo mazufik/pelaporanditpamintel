@@ -78,7 +78,7 @@ export const intelijenMenus: Category[] = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/document/d/1Y5ni60kRinZs8BgShBMUwt2LGGaLEbiD/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
+                        href: "https://docs.google.com/document/d/1zFdh2suvE4OC9ZOBI5wobOfI8NtqubFn/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
                         label: "Format Instrument",

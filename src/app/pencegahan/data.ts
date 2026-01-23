@@ -78,7 +78,7 @@ export const pencegahanMenus: Category[] = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/document/d/12Ie7HshQf1HpPtqoyYGT2jHDScpJ6WQ2XILSGX3Yylw/edit?usp=sharing",
+                        href: "https://docs.google.com/document/d/159NXcUNGqOM8ihF94gZ8fTNI4ATPi_KD/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
                         label: "Upload Laporan",

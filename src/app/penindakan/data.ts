@@ -73,6 +73,19 @@ export const penindakanMenus: Category[] = [
                     },
                 ],
             },
+            {
+                title: "Data Tahanan/Narapidana Terlibat Perkara Baru Di Dalam Lapas/Rutan",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1xkqWBVwrJ-qMQ_R60pOtu9kCI8zTMUd1JLUkjO_uyLQ/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/4dNpQ61641FpZPVS9",
+                    },
+                ],
+            },
         ],
     },
     {

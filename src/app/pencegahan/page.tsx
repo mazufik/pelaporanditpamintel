@@ -17,7 +17,7 @@ export default function PencegahanPage() {
                 <div className="flex justify-center mb-4">
                     <div className="w-32 h-32 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
                         <Image
-                            src="/logo.png"
+                            src="/pencegahan.jpeg"
                             alt="Subdit Pencegahan"
                             fill
                             priority

@@ -17,7 +17,7 @@ export const kontigensiMenus: Category[] = [
         category: "Laporan Bulanan",
         menus: [
             {
-                title: "Laporan Pelaksanaan Tanggap Darurat UPT Terdampak Bencana Alam dan Non Alam",
+                title: "Laporan Pelaksanaan Penanggulangan Pada UPT Terdampak Bencana",
                 items: [
                     {
                         label: "Format Laporan",

@@ -29,19 +29,6 @@ export const kontigensiMenus: Category[] = [
                     },
                 ],
             },
-            {
-                title: "SK Tim Tanggap Darurat",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/document/d/1mf1qkdd7DxConjQvQ0gZZTOQIlXtHoYZ/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSca_3k80E4raSjhJA-ObaHjvHhUc5w6YnjByLni0FC000FMqQ/viewform?usp=dialog",
-                    },
-                ],
-            },
         ],
     },
     {
@@ -70,6 +57,24 @@ export const kontigensiMenus: Category[] = [
                     {
                         label: "Upload Laporan",
                         href: "https://docs.google.com/forms/d/e/1FAIpQLSdbjAct7rW8OGQX43QoMElYUN0yyQl2ITrQ81lWQHl7bGZ6IQ/viewform?usp=dialog",
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        category: "Laporan Tahunan",
+        menus: [
+            {
+                title: "SK Tim Tanggap Darurat",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/document/d/1mf1qkdd7DxConjQvQ0gZZTOQIlXtHoYZ/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSca_3k80E4raSjhJA-ObaHjvHhUc5w6YnjByLni0FC000FMqQ/viewform?usp=dialog",
                     },
                 ],
             },

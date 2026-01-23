@@ -52,7 +52,7 @@ export const kontigensiMenus: Category[] = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/document/d/1OqMraorBpIwWuHfBXvogS0Per9D2TW-Y/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                        href: "https://docs.google.com/document/d/1c4kVrj24rTdbmRqqnak25fGtAi7U_NPz/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
                         label: "Upload Laporan",

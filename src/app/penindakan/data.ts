@@ -61,7 +61,7 @@ export const penindakanMenus: Category[] = [
         category: "Laporan Bulanan",
         menus: [
             {
-                title: "Data Gangguan keamanan dan ketertiban",
+                title: "Data Gangguan Keamanan dan Ketertiban",
                 items: [
                     {
                         label: "Format Laporan",
@@ -92,7 +92,7 @@ export const penindakanMenus: Category[] = [
         category: "Laporan Tahunan",
         menus: [
             {
-                title: "Tim Correctional Crisis Center dan Tim Tanggap Darura (SK Tim CC)",
+                title: "Tim Correctional Crisis Center (SK Tim CC)",
                 items: [
                     {
                         label: "Format Laporan",

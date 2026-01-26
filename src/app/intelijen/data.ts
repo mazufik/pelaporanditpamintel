@@ -37,6 +37,10 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/document/d/1qw_oVXt_qPsOOHX2KBlSnAlwjzdOpoED/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
+                        label: "Format Rekap Data Konsolidasi Intelijen Pemasyarakatan",
+                        href: "https://docs.google.com/spreadsheets/d/1mVr8MAibgvOeMMRzDpfGgCeycYYj0H80/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
                         label: "Upload Laporan",
                         href: "https://docs.google.com/forms/d/e/1FAIpQLSf8GBqhP9LNlwIeWPg1n3p9FcXwnRBUkSNKBkjK7uySzhvB6w/viewform?usp=dialog",
                     },

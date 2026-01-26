@@ -37,7 +37,7 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/document/d/1qw_oVXt_qPsOOHX2KBlSnAlwjzdOpoED/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Format Rekap Data Konsolidasi Intelijen Pemasyarakatan",
+                        label: "Format Rekap Data Konsolidasi",
                         href: "https://docs.google.com/spreadsheets/d/1mVr8MAibgvOeMMRzDpfGgCeycYYj0H80/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {

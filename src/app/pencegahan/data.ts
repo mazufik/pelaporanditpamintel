@@ -74,7 +74,7 @@ export const pencegahanMenus: Category[] = [
         category: "Laporan Semester",
         menus: [
             {
-                title: "Laporan penilaian kerawanan bencana dan non alam",
+                title: "Laporan Penilaian Kerawanan Bencana Non Alam",
                 items: [
                     {
                         label: "Format Laporan",

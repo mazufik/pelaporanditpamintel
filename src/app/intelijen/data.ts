@@ -50,6 +50,10 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/document/d/1Sg5FNZeN7ZOMegHzHnnWqOu2jKn55NTe/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
+                        label: "Format Rekap Data Laporan Intelijen",
+                        href: "https://docs.google.com/spreadsheets/d/19CRFfxAQxMJXg3x9Nl70VOy0fGmFHpvH/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
                         label: "Upload Laporan",
                         href: "https://docs.google.com/forms/d/e/1FAIpQLScTuRiXbgeJCcvZd_mc_57nsYWSx3NOcS15ETiJ6idWj216zQ/viewform?usp=dialog",
                     },

@@ -104,7 +104,7 @@ export const intelijenMenus: Category[] = [
         category: "Laporan Tahunan",
         menus: [
             {
-                title: "Laporan Penetapan Tim Unit Intelijen Pemasyarakatan, Unit Intelijen Pemasyarakatan (SK Tim UIP)",
+                title: "Laporan Penetapan Tim Unit Intelijen Pemasyarakatan (SK Tim UIP)",
                 items: [
                     {
                         label: "Format Laporan",

@@ -86,7 +86,7 @@ export const intelijenMenus: Category[] = [
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://forms.gle/u3g97rhTGK94ccuHA",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLScZXV8HayzANZIJ5vOfwXDJARxwVmKFC51DRvVfGdqsYfUXAQ/viewform?usp=dialog",
                     },
                 ],
             },

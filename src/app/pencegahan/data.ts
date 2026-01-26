@@ -14,6 +14,24 @@ export type Category = {
 
 export const pencegahanMenus: Category[] = [
     {
+        category: "Laporan Insidentil",
+        menus: [
+            {
+                title: "Data Penggagalan penyelundupan Narkotika",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1xTTzmwY_-P3gAID_sphtRVeWOC__ALlw-AE0ZT5wYmo/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/T9n97E7f3bXhLW1h7",
+                    },
+                ],
+            },
+        ],
+    },
+    {
         category: "Laporan Bulanan",
         menus: [
             {
@@ -39,19 +57,6 @@ export const pencegahanMenus: Category[] = [
                     {
                         label: "Upload Laporan",
                         href: "https://forms.gle/hkfRzQgUrr96Z9Rv8",
-                    },
-                ],
-            },
-            {
-                title: "Data Penggagalan penyelundupan Narkotika",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1xTTzmwY_-P3gAID_sphtRVeWOC__ALlw-AE0ZT5wYmo/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://forms.gle/T9n97E7f3bXhLW1h7",
                     },
                 ],
             },

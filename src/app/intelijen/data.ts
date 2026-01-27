@@ -41,7 +41,7 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/spreadsheets/d/1mVr8MAibgvOeMMRzDpfGgCeycYYj0H80/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Upload Laporan",
+                        label: "Upload Rekap Data Konsolidasi",
                         href: "https://docs.google.com/forms/d/e/1FAIpQLSf8GBqhP9LNlwIeWPg1n3p9FcXwnRBUkSNKBkjK7uySzhvB6w/viewform?usp=dialog",
                     },
                 ],
@@ -58,7 +58,7 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/spreadsheets/d/19CRFfxAQxMJXg3x9Nl70VOy0fGmFHpvH/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Upload Laporan",
+                        label: "Upload Rekap Data Laporan Intelijen",
                         href: "https://docs.google.com/forms/d/e/1FAIpQLScTuRiXbgeJCcvZd_mc_57nsYWSx3NOcS15ETiJ6idWj216zQ/viewform?usp=dialog",
                     },
                 ],

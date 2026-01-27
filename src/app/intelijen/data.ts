@@ -24,7 +24,11 @@ export const intelijenMenus: Category[] = [
                         href: "https://docs.google.com/spreadsheets/d/1sIqGkR4zb33y3jJsEvZfxbj3yGn2TEii/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
                     },
                     {
-                        label: "Upload Laporan",
+                        label: "Format Telaah Keamanan",
+                        href: "https://docs.google.com/spreadsheets/d/1MKAoeowscTtR40BhI8feWW4CqONP1syA/edit?usp=drive_link&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
+                        label: "Upload Laporan Data Warga Binaan Risiko Tinggi",
                         href: "https://forms.gle/jeUQesJCtccGLJcN8",
                     },
                 ],

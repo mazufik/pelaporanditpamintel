@@ -38,7 +38,7 @@ export const penindakanMenus: Category[] = [
                     },
                     {
                         label: "Upload Laporan (by Whatsapp)",
-                        href: "https://wa.me/6281200000000",
+                        href: "https://wa.me/62819802805",
                     },
                 ],
             },

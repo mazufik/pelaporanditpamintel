@@ -100,7 +100,7 @@ export const penindakanMenus: Category[] = [
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://forms.gle/xauz6Wnpegn%203rSFcA",
+                        href: "https://forms.gle/DUFeFMAXiEmd1GJT9",
                     },
                 ],
             },
@@ -118,7 +118,7 @@ export const penindakanMenus: Category[] = [
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://forms.gle/xauz6Wnpegn%203rSFcAhttps://docs.google.com/forms/d/e/1FAIpQLSd3wGWw5NkFaJ7oeL6STr5ZLuu-Vv6yCb1gnywLNQ1et4jqcQ/viewform",
+                        href: "https://forms.gle/nktkJiceL5ViujZj8",
                     },
                 ],
             },

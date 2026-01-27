@@ -12,7 +12,7 @@ export const links = [
     {
         title: "Intelijen Pemasyarakatan",
         url: "/intelijen",
-        icon: "/intelijen.png",
+        icon: "/intelijen.jpeg",
     },
     {
         title: "Rencana Kontingensi dan Penanggulangan Bencana Alam",

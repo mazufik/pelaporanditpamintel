@@ -14,6 +14,50 @@ export type Category = {
 
 export const penindakanMenus: Category[] = [
     {
+        category: "Laporan Bulanan",
+        menus: [
+            {
+                title: "Data Gangguan Keamanan dan Ketertiban",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1baSp1AhFWxH3C4hDMUh-SeK-qHX-NTgXijCCi9hGDAE/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCixN0lwGy53v1V_7lsAOvKbqYpEsngM_jOM5GxX5Gfo1Dbg/viewform?usp=dialog",
+                    },
+                ],
+            },
+            {
+                title: "Data Tahanan/Narapidana Terlibat Perkara Baru Di Dalam Lapas/Rutan",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1xkqWBVwrJ-qMQ_R60pOtu9kCI8zTMUd1JLUkjO_uyLQ/edit?usp=sharing",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/4dNpQ61641FpZPVS9",
+                    },
+                ],
+            },
+            {
+                title: "Data Pelarian, Tertangkap kembali dan Analisa pelarian narapidana",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1aY2GNPL2iRAD0Q3wdbMma3AQC3XljXvTIgl3Ufn1Krs/edit?gid=1354759459",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/nktkJiceL5ViujZj8",
+                    },
+                ],
+            },
+        ],
+    },
+    {
         category: "Laporan Insidentil",
         menus: [
             {
@@ -58,37 +102,6 @@ export const penindakanMenus: Category[] = [
         ],
     },
     {
-        category: "Laporan Bulanan",
-        menus: [
-            {
-                title: "Data Gangguan Keamanan dan Ketertiban",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1baSp1AhFWxH3C4hDMUh-SeK-qHX-NTgXijCCi9hGDAE/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCixN0lwGy53v1V_7lsAOvKbqYpEsngM_jOM5GxX5Gfo1Dbg/viewform?usp=dialog",
-                    },
-                ],
-            },
-            {
-                title: "Data Tahanan/Narapidana Terlibat Perkara Baru Di Dalam Lapas/Rutan",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1xkqWBVwrJ-qMQ_R60pOtu9kCI8zTMUd1JLUkjO_uyLQ/edit?usp=sharing",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://forms.gle/4dNpQ61641FpZPVS9",
-                    },
-                ],
-            },
-        ],
-    },
-    {
         category: "Laporan Tahunan",
         menus: [
             {
@@ -101,24 +114,6 @@ export const penindakanMenus: Category[] = [
                     {
                         label: "Upload Laporan",
                         href: "https://forms.gle/DUFeFMAXiEmd1GJT9",
-                    },
-                ],
-            },
-        ],
-    },
-    {
-        category: "Laporan Menyesuaikan/Laporan per Kasus",
-        menus: [
-            {
-                title: "Data Pelarian, Tertangkap kembali dan Analisa pelarian narapidana",
-                items: [
-                    {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1aY2GNPL2iRAD0Q3wdbMma3AQC3XljXvTIgl3Ufn1Krs/edit?gid=1354759459",
-                    },
-                    {
-                        label: "Upload Laporan",
-                        href: "https://forms.gle/nktkJiceL5ViujZj8",
                     },
                 ],
             },

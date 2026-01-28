@@ -5,7 +5,7 @@ import { isDropdownMenu } from "@/helper/utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Pokja Rencana Kontigensi dan Penanggulangan Bencana Alam",
+    title: "Bidang Rencana Kontigensi dan Penanggulangan Bencana Alam",
 };
 
 export default function KontigensiPage() {
@@ -27,10 +27,11 @@ export default function KontigensiPage() {
                 </div>
 
                 <h1 className="text-2xl font-bold leading-tight">
-                    POKJA RENCANA KONTIGENSI DAN PENANGGULANGAN BENCANA ALAM
+                    BIDANG RENCANA KONTIGENSI DAN PENANGGULANGAN BENCANA ALAM
                 </h1>
                 <p className="text-white/70 text-sm mt-2">
-                    Pelaporan Rencana Kontigensi dan Penanggulangan Bencana Alam
+                    Pelaporan Bidang Rencana Kontigensi dan Penanggulangan
+                    Bencana Alam
                 </p>
             </header>
 

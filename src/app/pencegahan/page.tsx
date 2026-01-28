@@ -5,7 +5,7 @@ import { isDropdownMenu } from "@/helper/utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Subdit Pencegahan Gangguan Keamanan dan Pemeliharaan Keamanan",
+    title: "Bidang Pencegahan Gangguan Keamanan dan Pemeliharaan Keamanan",
 };
 
 export default function PencegahanPage() {
@@ -27,11 +27,11 @@ export default function PencegahanPage() {
                 </div>
 
                 <h1 className="text-2xl font-bold leading-tight">
-                    SUBDIT PENCEGAHAN GANGGUAN KEAMANAN DAN PEMELIHARAAN
+                    BIDANG PENCEGAHAN GANGGUAN KEAMANAN DAN PEMELIHARAAN
                     KEAMANAN
                 </h1>
                 <p className="text-white/70 text-sm mt-2">
-                    Pelaporan Subdit Pencegahan Gangguan Keamanan dan
+                    Pelaporan Bidang Pencegahan Gangguan Keamanan dan
                     Pemeliharaan Keamanan
                 </p>
             </header>

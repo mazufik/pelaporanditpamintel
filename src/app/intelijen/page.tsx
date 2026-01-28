@@ -5,7 +5,7 @@ import { isDropdownMenu } from "@/helper/utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Subdit Intelijen Pemasyarakatan",
+    title: "Bidang Intelijen Pemasyarakatan",
 };
 
 export default function IntelijenPage() {
@@ -27,10 +27,10 @@ export default function IntelijenPage() {
                 </div>
 
                 <h1 className="text-2xl font-bold leading-tight">
-                    SUBDIT INTELIJEN PEMASYARAKATAN
+                    BIDANG INTELIJEN PEMASYARAKATAN
                 </h1>
                 <p className="text-white/70 text-sm mt-2">
-                    Pelaporan Subdit Intelijen Pemasyarakatan
+                    Pelaporan Bidang Intelijen Pemasyarakatan
                 </p>
             </header>
 

@@ -17,7 +17,7 @@ export default function IntelijenPage() {
                 <div className="flex justify-center mb-4">
                     <div className="w-32 h-32 rounded-full overflow-hidden border border-white/20 bg-white/10 backdrop-blur-md">
                         <Image
-                            src="/intelijen.jpeg"
+                            src="/intelijen.png"
                             alt="Subdit Intelijen"
                             fill
                             priority

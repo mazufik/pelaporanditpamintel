@@ -17,6 +17,6 @@ export const links = [
     {
         title: "Bidang Rencana Kontingensi dan Penanggulangan Bencana Alam",
         url: "/kontigensi",
-        icon: "/logo.png",
+        icon: "/kontigensi.png",
     },
 ];

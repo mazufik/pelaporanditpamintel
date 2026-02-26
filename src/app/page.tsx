@@ -39,6 +39,7 @@ export default function Home() {
                         title={link.title}
                         url={link.url}
                         icon={link.icon}
+                        highlight={link.highlight}
                     />
                 ))}
             </section>

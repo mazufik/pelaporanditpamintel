@@ -6,19 +6,30 @@ interface LinkCardProps {
     title: string;
     url: string;
     icon: string;
+    highlight?: boolean; // ⭐ props baru
 }
 
-export default function LinkCard({ title, url, icon }: LinkCardProps) {
+export default function LinkCard({
+    title,
+    url,
+    icon,
+    highlight,
+}: LinkCardProps) {
     return (
         <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-5 p-5 rounded-xl
-                 bg-white/10 backdrop-blur-md
-                 border border-white/20
-                 hover:bg-white/20 hover:-translate-y-1
-                 transition-all"
+            className={`
+                flex items-center gap-5 p-5 rounded-xl
+                backdrop-blur-md border transition-all
+                hover:-translate-y-1
+                ${
+                    highlight
+                        ? "bg-blue-500/20 border-blue-400 scale-[1.02]"
+                        : "bg-white/10 border-white/20 hover:bg-white/20"
+                }
+            `}
         >
             <div className="w-14 h-14 flex items-center justify-center shrink-0">
                 <Image
@@ -30,7 +41,11 @@ export default function LinkCard({ title, url, icon }: LinkCardProps) {
                 />
             </div>
 
-            <span className="font-semibold text-base leading-snug">
+            <span
+                className={`text-base leading-snug ${
+                    highlight ? "font-bold text-white" : "font-bold"
+                }`}
+            >
                 {title}
             </span>
         </a>

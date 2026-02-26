@@ -21,11 +21,11 @@ export const bhaktipasMenus: Category[] = [
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                        href: "https://docs.google.com/spreadsheets/d/1CK_4a_YRghpdfHpy0Zul3dJloWHbmcW9tUpLE3vlzBQ/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCgasRFb6So3wwp0nkatbD9FLV_ylxYdUM-bPz2Jn4sRqw_Q/viewform?usp=dialog",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSf22h_qCJCgocwpJwCo0xTTnXy-Ds-KanTx5o7BdFcrY34W6A/viewform?usp=sharing&ouid=112817817845458025084",
                     },
                 ],
             },

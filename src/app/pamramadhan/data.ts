@@ -18,7 +18,7 @@ export const pamramadhanMenus: Category[] = [
         menus: [
             {
                 title: "Format Laporan",
-                href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                href: "https://docs.google.com/spreadsheets/d/18R0CI1a7GcGiHp-2m864tUywGDKgg_2QLma5By85IjU/edit?gid=1901766786#gid=1901766786",
             },
             {
                 title: "Laporan Kesiapan Awal",

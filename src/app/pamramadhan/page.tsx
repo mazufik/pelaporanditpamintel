@@ -27,10 +27,12 @@ export default function BhaktipasPage() {
                 </div>
 
                 <h1 className="text-2xl font-bold leading-tight">
-                    PENGAMANAN PADA BULAN RAMADHAN
+                    PENGAMANAN PADA BULAN RAMADHAN DAN HARI RAYA IDUL FITRI 1447
+                    H/2026
                 </h1>
                 <p className="text-white/70 text-sm mt-2">
-                    Pelaporan Pengamanan Pada Bulan Ramadhan
+                    Pelaporan Pengamanan Pada Bulan Ramadhan dan Hari Raya Idul
+                    Fitri 1447 H/2026
                 </p>
             </header>
 

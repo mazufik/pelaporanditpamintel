@@ -15,7 +15,7 @@ export type Category = {
 export const pamramadhanMenus: Category[] = [
     {
         category:
-            "Laporan Peningkatan Kewaspadaan Selama Ramadhan dan Idul Fitri",
+            "Laporan Peningkatan Kewaspadaan Selama Ramadhan dan Idul Fitri 1447 H/2026",
         menus: [
             {
                 title: "Format Laporan",

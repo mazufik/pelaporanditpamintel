@@ -6,7 +6,7 @@ export const links = [
         highlight: true,
     },
     {
-        title: "Pengamanan Pada Bulan Ramadhan",
+        title: "Pengamanan Pada Bulan Ramadhan dan Hari Raya Idul Fitri 1447 H/2026",
         url: "/pamramadhan",
         icon: "/logo.png",
         highlight: true,

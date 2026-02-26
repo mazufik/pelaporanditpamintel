@@ -14,18 +14,55 @@ export type Category = {
 
 export const pamramadhanMenus: Category[] = [
     {
-        category: "",
+        category:
+            "Laporan Peningkatan Kewaspadaan Selama Ramadhan dan Idul Fitri",
         menus: [
             {
-                title: "Laporan Peningkatan Kewaspadaan Selama Ramadhan dan Idul Fitri",
+                title: "Format Laporan",
+                href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+            },
+            {
+                title: "Laporan Kesiapa Awal",
                 items: [
                     {
-                        label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/MrdixnccdiCaxrzz7",
                     },
+                ],
+            },
+            {
+                title: "Laporan Berkala Mingguan",
+                items: [
                     {
                         label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCgasRFb6So3wwp0nkatbD9FLV_ylxYdUM-bPz2Jn4sRqw_Q/viewform?usp=dialog",
+                        href: "https://forms.gle/Ejq2dmZ1FJQ4qkZr6",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Hari Raya Idul Fitri",
+                items: [
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/PXLGAAi4eYVGpukZA",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Evaluasi Akhir",
+                items: [
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/Sc13Q9gCWQp1bapXA",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Insidentil",
+                items: [
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/bfJbDovEhJJYUtZp8",
                     },
                 ],
             },

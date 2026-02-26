@@ -6,6 +6,12 @@ export const links = [
         highlight: true,
     },
     {
+        title: "Pengamanan Pada Bulan Ramadhan",
+        url: "/pamramadhan",
+        icon: "/logo.png",
+        highlight: true,
+    },
+    {
         title: "Bidang Pencegahan Gangguan Keamanan dan Pemeliharaan Keamanan",
         url: "/pencegahan",
         icon: "/pencegahan.jpeg",

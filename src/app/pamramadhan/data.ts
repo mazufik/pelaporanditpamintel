@@ -22,7 +22,7 @@ export const pamramadhanMenus: Category[] = [
                 href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
             },
             {
-                title: "Laporan Kesiapa Awal",
+                title: "Laporan Kesiapan Awal",
                 items: [
                     {
                         label: "Upload Laporan",

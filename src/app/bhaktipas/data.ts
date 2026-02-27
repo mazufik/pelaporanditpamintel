@@ -43,7 +43,20 @@ export const bhaktipasMenus: Category[] = [
                 ],
             },
             {
-                title: "Laporan Kebersihan Lingkungan",
+                title: "Laporan Kebersihan Lingkungan Dalam Kantor",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCgasRFb6So3wwp0nkatbD9FLV_ylxYdUM-bPz2Jn4sRqw_Q/viewform?usp=dialog",
+                    },
+                ],
+            },
+            {
+                title: "Laporan Kebersihan Lingkungan Fasilitas Umum dan Fasilitas Sosial",
                 items: [
                     {
                         label: "Format Laporan",

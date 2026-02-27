@@ -30,15 +30,15 @@ export const bhaktipasMenus: Category[] = [
                 ],
             },
             {
-                title: "Laporan Razia",
+                title: "Laporan Penggeledahan (Razia)",
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                        href: "https://docs.google.com/spreadsheets/d/1vXqC76VTUQHZmre-GY_2EtFOaHyELN6JPkpi7lS8G5A/edit?usp=sharing",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCgasRFb6So3wwp0nkatbD9FLV_ylxYdUM-bPz2Jn4sRqw_Q/viewform?usp=dialog",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSe-qfuHDt5i5ObNaJ7cq0ZyL6pO17INhKKCx7amxZEIixEvHw/viewform?usp=sharing&ouid=112817817845458025084",
                     },
                 ],
             },

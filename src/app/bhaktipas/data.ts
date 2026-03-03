@@ -17,7 +17,7 @@ export const bhaktipasMenus: Category[] = [
         category: "Laporan Hari Bhakti Pemasyarakatan",
         menus: [
             {
-                title: "Panduan Kegiatan Hari Bhakti Pemasyarakatan",
+                title: "Pedoman Kegiatan Hari Bhakti Pemasyarakatan",
                 href: "https://drive.google.com/drive/folders/1RHNvlG_9gG7lnuAuIaRuEbmWSUTHw2-1?usp=drive_link",
             },
             {

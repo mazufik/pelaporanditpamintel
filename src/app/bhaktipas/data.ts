@@ -17,6 +17,10 @@ export const bhaktipasMenus: Category[] = [
         category: "Laporan Hari Bhakti Pemasyarakatan",
         menus: [
             {
+                title: "Panduan Kegiatan Hari Bhakti Pemasyarakatan",
+                href: "https://drive.google.com/drive/folders/1RHNvlG_9gG7lnuAuIaRuEbmWSUTHw2-1?usp=drive_link",
+            },
+            {
                 title: "Laporan Test Urine",
                 items: [
                     {
@@ -43,7 +47,7 @@ export const bhaktipasMenus: Category[] = [
                 ],
             },
             {
-                title: "Laporan Kebersihan Lingkungan Dalam Kantor",
+                title: "Kegiatan Bakti Sosial: Bersih Lingkungan Satker",
                 items: [
                     {
                         label: "Format Laporan",
@@ -56,17 +60,21 @@ export const bhaktipasMenus: Category[] = [
                 ],
             },
             {
-                title: "Laporan Kebersihan Lingkungan Fasilitas Umum dan Fasilitas Sosial",
+                title: "Kegiatan Bakti Sosial : Bersih Fasilitas Umum dan Sosial",
                 items: [
                     {
                         label: "Format Laporan",
-                        href: "https://docs.google.com/spreadsheets/d/1ebfo1Tcqp6E9BFPRQZMLrVrKL1cibM6w/edit?usp=sharing&ouid=112817817845458025084&rtpof=true&sd=true",
+                        href: "#",
                     },
                     {
                         label: "Upload Laporan",
-                        href: "https://docs.google.com/forms/d/e/1FAIpQLSdCgasRFb6So3wwp0nkatbD9FLV_ylxYdUM-bPz2Jn4sRqw_Q/viewform?usp=dialog",
+                        href: "#",
                     },
                 ],
+            },
+            {
+                title: "Lomba Video Pendek “Suara Pemasyarakatan Melawan Narkoba”",
+                href: "#",
             },
         ],
     },

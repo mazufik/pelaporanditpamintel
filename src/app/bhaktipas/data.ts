@@ -74,7 +74,7 @@ export const bhaktipasMenus: Category[] = [
             },
             {
                 title: "Lomba Video Pendek “Suara Pemasyarakatan Melawan Narkoba”",
-                href: "#",
+                href: "https://drive.google.com/file/d/1-Z8gRVSlsNZbDr1l54047hN99d-jmAFp/view?usp=drive_link",
             },
         ],
     },

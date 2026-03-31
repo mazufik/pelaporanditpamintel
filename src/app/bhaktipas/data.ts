@@ -68,7 +68,7 @@ export const bhaktipasMenus: Category[] = [
                     },
                     {
                         label: "Upload Laporan",
-                        href: "#",
+                        href: "https://docs.google.com/forms/d/e/1FAIpQLSebF7azE76F6iCv_Egf269ZcHX7OHmAdTngog6SmA0k9_vkmA/viewform",
                     },
                 ],
             },

@@ -98,7 +98,7 @@ export default function AccessMenu() {
                     <div className="p-4 space-y-3">
                         {/* MANUAL BOOK */}
                         <a
-                            href="/manual-book.pdf"
+                            href="https://bit.ly/ManualBookPelaporanDitpamintel"
                             target="_blank"
                             className="
                                 flex items-center gap-4
@@ -132,7 +132,7 @@ export default function AccessMenu() {
 
                         {/* ADMIN */}
                         <a
-                            href="https://wa.me/628123456789"
+                            href="mailto:ditpamintel26@gmail.com"
                             target="_blank"
                             className="
                                 flex items-center gap-4
@@ -159,7 +159,7 @@ export default function AccessMenu() {
                                 </h4>
 
                                 <p className="text-sm text-gray-400">
-                                    Hubungi melalui WhatsApp
+                                    Hubungi melalui Email
                                 </p>
                             </div>
                         </a>

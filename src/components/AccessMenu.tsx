@@ -2,146 +2,168 @@
 
 "use client";
 
-import { FileText, MessageCircle } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { FileText, MessageCircle, ChevronLeft } from "lucide-react";
 
 export default function AccessMenu() {
+    const [open, setOpen] = useState(false);
+    const menuRef = useRef<HTMLDivElement>(null);
+
+    // Tutup menu ketika klik di luar
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (
+                menuRef.current &&
+                !menuRef.current.contains(event.target as Node)
+            ) {
+                setOpen(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
     return (
-        <div className="relative">
-            {/* Tombol Floating */}
+        <div
+            ref={menuRef}
+            className="fixed left-0 top-1/2 -translate-y-1/2 z-50"
+        >
+            {/* BUTTON FLOATING */}
             <button
+                onClick={() => setOpen(!open)}
                 className="
-                    absolute
-                    -left-12
-                    top-1/2
-                    -translate-y-1/2
-                    w-14
-                    h-14
-                    rounded-l-full
+                    w-14 h-14
                     rounded-r-2xl
                     bg-gradient-to-b
                     from-orange-400
                     to-pink-500
-                    flex
-                    items-center
-                    justify-center
-                    shadow-xl
+                    shadow-2xl
+                    flex items-center justify-center
+                    hover:scale-105
+                    transition-all
+                    duration-300
                 "
             >
-                <span className="text-white text-3xl leading-none">
-                    ‹
-                </span>
+                <ChevronLeft
+                    className={`text-white transition-transform duration-300 ${
+                        open ? "rotate-180" : ""
+                    }`}
+                    size={28}
+                />
             </button>
 
-            {/* Card */}
+            {/* MENU */}
             <div
-                className="
-                    bg-white/95
-                    backdrop-blur-xl
-                    rounded-3xl
-                    overflow-hidden
-                    shadow-2xl
-                    border
-                    border-white/30
-                "
+                className={`
+                    absolute
+                    left-16
+                    top-1/2
+                    -translate-y-1/2
+                    w-[320px]
+                    transition-all
+                    duration-300
+                    ${
+                        open
+                            ? "opacity-100 translate-x-0 visible"
+                            : "opacity-0 -translate-x-5 invisible"
+                    }
+                `}
             >
-                {/* Header */}
-                <div className="px-5 py-4 border-b border-gray-100">
-                    <h3 className="text-gray-800 font-semibold text-lg">
-                        Menu Akses
-                    </h3>
+                <div
+                    className="
+                        bg-white/95
+                        backdrop-blur-xl
+                        rounded-3xl
+                        shadow-2xl
+                        overflow-hidden
+                        border border-white/30
+                    "
+                >
+                    {/* HEADER */}
+                    <div className="px-5 py-4 border-b border-gray-100">
+                        <h3 className="text-gray-800 font-semibold text-xl">
+                            Menu Akses
+                        </h3>
 
-                    <p className="text-gray-400 text-sm mt-1">
-                        Shortcut bantuan & dokumentasi
-                    </p>
-                </div>
+                        <p className="text-gray-400 text-sm mt-1">
+                            Shortcut bantuan & dokumentasi
+                        </p>
+                    </div>
 
-                {/* Menu Items */}
-                <div className="p-4 space-y-3">
-                    {/* Manual Book */}
-                    <a
-                        href="/manual-book.pdf"
-                        target="_blank"
-                        className="
-                            flex
-                            items-center
-                            gap-4
-                            p-3
-                            rounded-2xl
-                            hover:bg-gray-50
-                            transition-all
-                            duration-200
-                        "
-                    >
-                        {/* Icon */}
-                        <div
+                    {/* ITEMS */}
+                    <div className="p-4 space-y-3">
+                        {/* MANUAL BOOK */}
+                        <a
+                            href="/manual-book.pdf"
+                            target="_blank"
                             className="
-                                w-12
-                                h-12
-                                rounded-2xl
-                                bg-red-100
-                                flex
-                                items-center
-                                justify-center
-                                shrink-0
+                                flex items-center gap-4
+                                p-3 rounded-2xl
+                                hover:bg-gray-50
+                                transition-all
                             "
                         >
-                            <FileText className="w-5 h-5 text-red-500" />
-                        </div>
+                            <div
+                                className="
+                                    w-12 h-12
+                                    rounded-2xl
+                                    bg-red-100
+                                    flex items-center justify-center
+                                    shrink-0
+                                "
+                            >
+                                <FileText className="w-5 h-5 text-red-500" />
+                            </div>
 
-                        {/* Text */}
-                        <div>
-                            <h4 className="font-semibold text-gray-700 leading-tight">
-                                Download Manual Book
-                            </h4>
+                            <div>
+                                <h4 className="font-semibold text-gray-700">
+                                    Download Manual Book
+                                </h4>
 
-                            <p className="text-sm text-gray-400 mt-1">
-                                Preview PDF di tab baru
-                            </p>
-                        </div>
-                    </a>
+                                <p className="text-sm text-gray-400">
+                                    Preview PDF di tab baru
+                                </p>
+                            </div>
+                        </a>
 
-                    {/* Kontak Admin */}
-                    <a
-                        href="https://wa.me/628123456789"
-                        target="_blank"
-                        className="
-                            flex
-                            items-center
-                            gap-4
-                            p-3
-                            rounded-2xl
-                            hover:bg-gray-50
-                            transition-all
-                            duration-200
-                        "
-                    >
-                        {/* Icon */}
-                        <div
+                        {/* ADMIN */}
+                        <a
+                            href="https://wa.me/628123456789"
+                            target="_blank"
                             className="
-                                w-12
-                                h-12
-                                rounded-2xl
-                                bg-green-100
-                                flex
-                                items-center
-                                justify-center
-                                shrink-0
+                                flex items-center gap-4
+                                p-3 rounded-2xl
+                                hover:bg-gray-50
+                                transition-all
                             "
                         >
-                            <MessageCircle className="w-5 h-5 text-green-500" />
-                        </div>
+                            <div
+                                className="
+                                    w-12 h-12
+                                    rounded-2xl
+                                    bg-green-100
+                                    flex items-center justify-center
+                                    shrink-0
+                                "
+                            >
+                                <MessageCircle className="w-5 h-5 text-green-500" />
+                            </div>
 
-                        {/* Text */}
-                        <div>
-                            <h4 className="font-semibold text-gray-700 leading-tight">
-                                Kontak Admin
-                            </h4>
+                            <div>
+                                <h4 className="font-semibold text-gray-700">
+                                    Kontak Admin
+                                </h4>
 
-                            <p className="text-sm text-gray-400 mt-1">
-                                Hubungi melalui WhatsApp
-                            </p>
-                        </div>
-                    </a>
+                                <p className="text-sm text-gray-400">
+                                    Hubungi melalui WhatsApp
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

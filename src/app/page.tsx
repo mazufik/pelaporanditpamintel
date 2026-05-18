@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LinkCard from "@/components/LinkCard";
+import AccessMenu from "@/components/AccessMenu";
 import { links } from "@/data/links";
 import { Metadata } from "next";
 
@@ -30,6 +31,11 @@ export default function Home() {
                     Portal Pelaporan Direktorat Pengamanan dan Intelijen
                 </p>
             </header>
+
+            {/* MENU AKSES */}
+            <section className="mb-8">
+                <AccessMenu />
+            </section>
 
             {/* LINKS */}
             <section className="space-y-4">

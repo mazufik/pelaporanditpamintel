@@ -1,5 +1,5 @@
 export const links = [
-    {
+    /* {
         title: "Hari Bhakti Pemasyarakatan 2026",
         url: "/bhaktipas",
         icon: "/logo.png",
@@ -10,7 +10,7 @@ export const links = [
         url: "/pamramadhan",
         icon: "/logo.png",
         highlight: true,
-    },
+        }, */
     {
         title: "Bidang Pencegahan Gangguan Keamanan dan Pemeliharaan Keamanan",
         url: "/pencegahan",

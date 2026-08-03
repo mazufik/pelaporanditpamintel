@@ -99,6 +99,19 @@ export const penindakanMenus: Category[] = [
                     },
                 ],
             },
+            {
+                title: "Data Pemindahan Narapidana Dengan Alasan Keamanan antar Wilayah atau UPT",
+                items: [
+                    {
+                        label: "Format Laporan",
+                        href: "https://docs.google.com/spreadsheets/d/1WB9dmO4pw85RbpeZe6JWjLKFuYKDN-BwO-qhqPXTfbQ/edit?usp=drivesdk",
+                    },
+                    {
+                        label: "Upload Laporan",
+                        href: "https://forms.gle/ZmLGKXyzPxijHYS77",
+                    },
+                ],
+            },
         ],
     },
     {
